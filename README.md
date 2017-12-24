@@ -12,8 +12,18 @@ In RandomForest2.ipynb file I used Random forest classifier better way to predic
 In RandomForest2.ipynb file ln[39] same as churn_prediction.ipynb because data preprocessing part is same .
 
 
-#How can you proceed?
+# How can you proceed:
 So first go through churn_prediction.ipynb file and then RandomForest2.ipynb file .
+
+# Prerequisites
+you have to install python 2.7 ,ipython notebook to run the code.
+
+[For download ipython notebook in ubuntu](https://www.digitalocean.com/community/tutorials/how-to-set-up-a-jupyter-notebook-to-run-ipython-on-ubuntu-16-04)
+
+[For download ipython notebook in windows](http://jupyter.readthedocs.io/en/latest/install.html)
+
+
+
 
 
  
