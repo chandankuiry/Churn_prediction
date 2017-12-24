@@ -1,0 +1,15 @@
+import datetime as DT
+import io
+import numpy as np
+import pandas as pd
+
+pd.options.mode.chained_assignment = 'warn'
+
+df = pd.read_table(io.BytesIO(data.csv), sep='\s{2,}')
+df['dob'] = df['dob'].apply('{:06}'.format)
+
+now = pd.Timestamp(DT.datetime.now())
+df['dob'] = pd.to_datetime(df['dob'], format='%m%d%y')    # 1
+df['dob'] = df['dob'].where(df['dob'] < now, df['dob'] -  np.timedelta64(100, 'Y'))   # 2
+df['age'] = (now - df['dob']).astype('<m8[Y]')    # 3
+print(df)
