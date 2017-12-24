@@ -9,7 +9,7 @@ In churn_prediction.ipynb file I used logistic regression ,AdaBoost classifier,R
 
 In RandomForest2.ipynb file I used Random forest classifier better way to predict churn .
 
-In RandomForest2.ipynb file ln[39] same as churn_prediction.ipynb because data preprocessing part is same .
+In RandomForest2.ipynb file upto ln[39] same as churn_prediction.ipynb because data preprocessing part is same .
 
 
 # How can you proceed:
