@@ -7,13 +7,9 @@ Churn prediction is to detect which customers are likely to cancel a subscriptio
 
 In churn_prediction.ipynb file I used logistic regression ,AdaBoost classifier,Random forest classifier ,Naive Bayes classifier to predict customer churn . 
 
-In RandomForest2.ipynb file I used Random forest classifier better way to predict churn .
-
-In RandomForest2.ipynb file upto ln[39] same as churn_prediction.ipynb because data preprocessing part is same .
 
 
-# How can you proceed:
-So first go through churn_prediction.ipynb file and then RandomForest2.ipynb file .
+
 
 # Prerequisites
 you have to install python 2.7 ,ipython notebook to run the code.
